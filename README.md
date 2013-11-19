@@ -50,3 +50,8 @@ def main():
 What you're doing here is limiting the size of the lists you are testing
 to 10.000, so you don't stall your computer trying to do effectively 10^10
 comparisons.
+
+## License ##
+=============
+
+MIT License
