@@ -1,12 +1,18 @@
 # Jonathan's Amazing Sort Tester! #
 
-Sort testing made easy. Just make your main function look like this:
+Sort testing made easy. Just make your main function in your sorting script
+look like this:
 
 ``` python
 from sort_test import sort_test
 
 def main():
     sort_test([your_sort])
+
+# Don't forget this! You need it everywhere, even though
+# I'm not including it in other places in this guide.
+if __name__ == '__main__':
+    main()
 ```
 
 It's important you include the brackets, so don't forget them! If you want to
