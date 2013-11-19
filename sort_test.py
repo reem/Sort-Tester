@@ -92,7 +92,7 @@ def sort_test(sorts_to_test, max_size_order = 7, mult_list_size = True,
             except KeyError:
                 times[sort.__name__] = list([end_time - start_time])
             if verbose_timing:
-                print times[sort.__name__][-1]
+                print "It took: {:.5f}".format(times[sort.__name__][-1])
 
             if check_sort:
                 try:
