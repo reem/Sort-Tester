@@ -4,18 +4,22 @@
 Sort testing made easy. Just put: `from sort_test import sort_test` at the
 top of your sorting script then make your main function look like this:
 
-`from sort_test import sort_test
+``` python
+from sort_test import sort_test
 
 def main():
-    sort_test([your_sort])`
+    sort_test([your_sort])
+```
 
 It's important you include the brackets, so don't forget them! If you want to
 test against python's built-in sort you can do:
 
-`from sort_test import sort_test
+``` python
+from sort_test import sort_test
 
 def main():
-    sort_test([your_sort, sorted])`
+    sort_test([your_sort, sorted])
+```
 
 In fact, you can pass `sort_test` a list with as many sort functions that you
 want and it will test them all! PLEASE see the warning section below if your
@@ -42,10 +46,12 @@ something to the `sort_test()` call or your computer is going to stall.
 
 Your `main()` should look like this:
 
-`form sort_test import sort_test
+``` python
+from sort_test import sort_test
 
 def main():
-    sort_test([your_sort, sorted], max_size_order=4)`
+    sort_test([your_sort, sorted], max_size_order=4)
+```
 
 What you're doing here is limiting the size of the lists you are testing
 to 10.000, so you don't stall your computer trying to do effectively 10^10
