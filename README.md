@@ -1,5 +1,5 @@
 # Jonathan's Amazing Sort Tester #
-===
+----------------------------------
 
 Sort testing made easy. Just put: `from sort_test import sort_test` at the
 top of your sorting script then make your main function look like this:
@@ -29,7 +29,7 @@ It has a bunch more options, but if you want to know about them you'll have
 to ask me.
 
 ## Installing ##
-===
+----------------
 
 All you need to do it put `sort_test.py` in the same folder as your sorting
 script so you can import it easily.
@@ -39,7 +39,7 @@ to the right, then just grab `sort_test.py` from the folder and move it. It
 should Just Work from there.
 
 ## WARNING ##
-===
+-------------
 
 If your sort is O(n^2) *do not* just run this plain. You have to add
 something to the `sort_test()` call or your computer is going to stall.
@@ -58,6 +58,6 @@ to 10.000, so you don't stall your computer trying to do effectively 10^10
 comparisons.
 
 ## License ##
-===
+-------------
 
 MIT License
