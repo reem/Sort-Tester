@@ -48,8 +48,6 @@ def sort_test(sorts_to_test, max_size_order = 7, mult_list_size = True,
     Set mult_list_size to False to check on only one size of list.
         (10 million integers under 100 thousand)
     Set check_sort to False to not do assertions on the sorted lists.
-    Set try_debug_list to False to not try the sort on a small list
-        if it fails the assertion test.
     Set verbose_timing to True to show timing data in real-time.
     """
 
