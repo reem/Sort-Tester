@@ -18,7 +18,8 @@ def main():
     sort_test([your_sort, sorted])`
 
 In fact, you can pass `sort_test` a list with as many sort functions that you
-want and it will test them all!
+want and it will test them all! PLEASE see the warning section below if your
+sort is O(n^2).
 
 It has a bunch more options, but if you want to know about them you'll have
 to ask me.
@@ -32,3 +33,20 @@ script so you can import it easily.
 You can download this whole folder by clicking the little "download" button
 to the right, then just grab `sort_test.py` from the folder and move it. It
 should Just Work from there.
+
+## WARNING ##
+=============
+
+If your sort is O(n^2) *do not* just run this plain. You have to add
+something to the `sort_test()` call or your computer is going to stall.
+
+Your `main()` should look like this:
+
+`form sort_test import sort_test
+
+def main():
+    sort_test([your_sort, sorted], max_size_order=4)`
+
+What you're doing here is limiting the size of the lists you are testing
+to 10.000, so you don't stall your computer trying to do effectively 10^10
+comparisons.
