@@ -1,7 +1,6 @@
 # Jonathan's Amazing Sort Tester! #
 
-Sort testing made easy. Just put: `from sort_test import sort_test` at the
-top of your sorting script then make your main function look like this:
+Sort testing made easy. Just make your main function look like this:
 
 ``` python
 from sort_test import sort_test
