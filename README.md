@@ -1,4 +1,4 @@
-# Jonathan's Amazing Sort Tester #
+# Jonathan's Amazing Sort Tester! #
 
 Sort testing made easy. Just put: `from sort_test import sort_test` at the
 top of your sorting script then make your main function look like this:
