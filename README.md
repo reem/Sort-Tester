@@ -21,11 +21,10 @@ def main():
 ```
 
 In fact, you can pass `sort_test` a list with as many sort functions that you
-want and it will test them all! PLEASE see the warning section below if your
-sort is O(n^2).
+want and it will test them all!
 
-It has a bunch more options, but if you want to know about them you'll have
-to ask me.
+It has a bunch more options, which you can either figure out from the source or
+ask me about. Please see the warning section if your sort is O(n^2)!!
 
 ## Installing ##
 
