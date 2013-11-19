@@ -36,7 +36,7 @@ ask me about. Please see the warning section if your sort is O(n^2)!!
 All you need to do it put `sort_test.py` in the same folder as your sorting
 script so you can import it easily.
 
-You can download this whole folder by clicking the little "download" button
+You can download this whole folder by clicking the "download zip" button
 to the right, then just grab `sort_test.py` from the folder and move it. It
 should Just Work from there.
 
