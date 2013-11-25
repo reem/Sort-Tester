@@ -42,7 +42,7 @@ should Just Work from there.
 
 ## Options ##
 
-`sort_test` has tons of optional arguments and setting, these are some
+`sort_test` has tons of optional arguments and settings, these are some
 instructions for them:
 
 The first optional argument is `max_size_order`, which lets you control how
