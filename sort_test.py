@@ -4,11 +4,7 @@ Author: Jonathan Reem
 Author email: jonathan.reem@gmail.com
 Date: September 2013
 Implementation of a comprehensive speed test for sorting algorithms.
- Version 1.0
-Prerequisites:
-  numpy 1.7.0 or later
-    Replace lines 53 and 57 with random.randint calls instead of numpy random
-    calls if you don't have it, know this is FAR slower.
+ Version 1.1
 Current Features:
   Speed Testing with leaderboard generation over variable size lists
   Options for changing list sizes, number of lists, and others. See docstring
