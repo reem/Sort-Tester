@@ -74,11 +74,11 @@ def sort_test(sorts_to_test, max_size_order = 7, mult_list_size = True,
             start_time, end_time = 0, 0
             try:
                 start_time = time.clock()
-                sorted_lists[sort.__name__].append(sort(unsorted))
+                sorted_lists[sort.__name__].append(list(sort(unsorted)))
                 end_time = time.clock()
             except KeyError:
                 start_time = time.clock()
-                sorted_lists[sort.__name__] = list([sort(unsorted)])
+                sorted_lists[sort.__name__] = list(list([sort(unsorted)]))
                 end_time = time.clock()
 
             try:
@@ -132,7 +132,7 @@ def gen_lists(max_size_order, mult_list_size):
     if mult_list_size:
         for i in range(2, max_size_order):
             size_random_sample = 10 ** i
-            range_upper_limit = 10 ** random.randint(i-1, i)
+            range_upper_limit = 10 ** i
             print "Generating {} random ints with max size {}...".format(
                     size_random_sample, range_upper_limit)
             random_list = rlist_gen(size_random_sample, range_upper_limit)
