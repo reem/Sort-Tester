@@ -111,7 +111,7 @@ def debug(sort, unsorted):
 
     print "Initial debug list: ", debug_list
     print "Sorted debug list: ", sorted(debug_list)
-    print "Broken sort debug list: ", sort(debug_list)
+    print "Broken sort debug list: ", list(sort(debug_list))
 
 def gen_leaderboard(unsorted_lists, times, working_sorts):
     """Generates leaderboard from times for the working sorts."""
